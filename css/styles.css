@@ -1,0 +1,19 @@
+#warnings-responses {
+  display: none;
+}
+
+#changes-responses {
+  display: none;
+}
+
+#methods-responses {
+  display: none;
+}
+
+body {
+  background-color: #008B8B;
+}
+
+.jumbotron {
+  background-color: #FFE4C4;
+}

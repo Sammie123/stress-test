@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>A Stress Test</h1>
+      </div>
+      <form id="StressForm">
+        <div class="form-group">
+          <h3>Which of these warning signs of stress have you experience in the past year? Click all that apply.</h3>
+          <input type="checkbox" name="warningSigns" value="headaches">Headaches, muscle tension, neck/back pain<br>
+          <input type="checkbox" name="warningSigns" value="appetite">Lost of Appetite<br>
+          <input type="checkbox" name="warningSigns" value="fatigue">Fatigue<br>
+          <input type="checkbox" name="warningSigns" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="warningSigns" value="heartbeat">Chest pains/Rapid heartbeat<br>
+        </div>
+
+        <div class="form-group">
+          <h3>Have you experience any of these changes in the past year? Click all that apply.</h3>
+          <input type="checkbox" name="changes" value="weight">Weight gain/loss<br>
+          <input type="checkbox" name="changes" value="mental">Mental health(depression, anxiety, etc)<br>
+          <input type="checkbox" name="changes" value="libido">Sex drive<br>
+          <input type="checkbox" name="changes" value="skin">Acne and/or other skin condititions.<br>
+          <input type="checkbox" name="changes" value="alcohol">Increase consumption of alcohol/usage of drugs<br>
+        </div>
+
+        <div class="form-group">
+          <h3>Which method have you tried in the past year that help you relieve stress? Click all that apply</h3>
+          <input type="checkbox" name="method" value="meditate">Meditating<br>
+          <input type="checkbox" name="method" value="exercise">Exercising<br>
+          <input type="checkbox" name="method" value="talking">Talking to friends/family/therapist<br>
+          <input type="checkbox" name="method" value="diet">Start a healthy diet.<br>
+          <input type="checkbox" name="method" value="hobby">Start a new hobby<br>
+        </div>
+        <button type="submit" class="btn">Submit your test</button>
+      </form>
+
+      <span id="warnings-responses">
+        <h4>These are your warning signs that you experienced in the past year:</h4>
+      </span>
+      <br>
+      <span id="changes-responses">
+        <h4>These are your warning signs that you experienced in the past year:</h4>
+      </span>
+      <br>
+      <span id="methods-responses">
+        <h4>These are your warning signs that you experienced in the past year:</h4>
+      </span>
+
+    </div>
+  </body>
+</html>
